@@ -1,2 +1,3 @@
 # flutter_lab
-Diklat Pengembangan Aplikasi Mobile (Flutter, Dart)
+PLN Workshop Flutter Mobile Apps Development
+- Diklat Pengembangan Aplikasi Mobile (Flutter, Dart)

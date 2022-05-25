@@ -1,6 +1,6 @@
-# latihan_1
+# Mini Projects
 
-A new Flutter project.
+Mini Projects API GSheet Part 1-4
 
 ## Getting Started
 

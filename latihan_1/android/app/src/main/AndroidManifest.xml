@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.latihan_1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
-        android:label="latihan_1"
+        android:label="Mini Project"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

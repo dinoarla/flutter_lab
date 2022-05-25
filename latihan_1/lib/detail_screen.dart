@@ -35,6 +35,42 @@ class DetailScreen extends StatelessWidget {
                 )
               ],
             ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                item.name,
+                style:
+                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Alamat',
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                  Text(item.address),
+                  const Divider(),
+                  const Text('No. Handphone',
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                  Text(item.phoneNumber),
+                  const Divider(),
+                  const Text('Latitude',
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                  Text(item.lat.toString()),
+                  const Divider(),
+                  const Text('Longitude',
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                  Text(item.long.toString()),
+                  const Divider()
+                ],
+              ),
+            )
           ],
         ),
       ),
